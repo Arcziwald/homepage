@@ -1,0 +1,35 @@
+.header { 
+    color: rgb(199, 42, 73);
+    font-family: "Lato", sans-serif;
+    margin: auto;
+}
+
+.header__image {
+    background-color: rgb(241, 238, 238);
+    border-radius: 150px;
+    padding: 10px;
+}
+
+.header__headingjob {
+    color: rgb(57, 20, 220);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+
+}
+
+.header__button {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 5px;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+}
+
+.header__buttonDeleteJob {
+    cursor: pointer;
+    padding: 5px 10px;
+    color: rgb(31, 43, 99);
+    text-decoration: none;
+    margin: 1px
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<link href="css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <header class="header">
+        <img class="header__image" width="300" height="300" src="https://i.postimg.cc/zvTmVh9x/Artur-Mochnia.jpg" alt="Artur Mochnia">
+    <h1 class="header__heading">Artur Mochnia</h1>
+            <button class="header__button">Włącz <span class="changebBackgroundButton">ciemny</span> motyw</button>
+       <p class="header__headingjob">Frontend Developer</p>
+        <a class="header__image" href="mailto:amochnia@gmail.com">
+            amochnia@gmail.com
+        </a>
+        <button class="header__buttonDeleteJob">Usuń zawód</button>
+    </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#o-mnie">O mnie</a></li>
+                <li class="navigation__item"><a href="#zainteresowania">Zainteresowania</a></li>
+                <li class="navigation__item"><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+    <main> 
+<section class="section">
+    <h2  class="section__header" id="o-mnie">O Mnie</h2>
+            <p>Mam na imię <b>Artur</b> i jakieś 25 lat temu skończyłem <em><b>25 lat</b></em></p>
+        <p class="section__header--element">Mam szerokie doświadczenie zawodowe obejmujące wiele branż. <br> Zacząłem od pracy na etacie, następnie pracowałem w korporacjach, a w końcu założyłem własną działalność gospodarczą. <br>Ponadto, pracowałem również za granicą. <br>W swojej karierze awansowałem na różnych stanowiskach, zarówno w pracy umysłowej, jak i w pracy fizycznej. <br>Jestem pełen nadziei, że nauka programowania otworzy przede mną nowe horyzonty i pozwoli mi udoskonalić mój warsztat umiejętności."
+        </p>
+</section>
+<section class="section">
+    <h2  class="section__header" id="zainteresowania">Zainteresowania</h2>
+    <p class="section__header--element"><strong>Uwielbiam</strong> podróżować oraz spędzać czas z rodziną i przyjaciółmi. <br>Zawodowo zajmuję się tradingiem, ale tak bardzo to lubię, że można powiedzieć, iż nie pracuję. <br>Mam nadzieję, że nauka programowania przyniesie mi wiele satysfakcji i pozwoli mi osiągnąć <br>zaawansowany poziom wtajemniczenia w tej sztuce tworzenia. <br> W wolnych chwilach maluję obrazy z chińskich projektów malowania po numerach.<br>Malowanie odpręża mnie i relaksuje. Jest to dla mnie idealny antystresant.</p>
+    <p class="article">Namalowałem słoneczniki naśladując styl Matejki, ale nie są to dzieła Matejki, a moje własne więc nazywają się ... "</p>
+    <p class="section__header--colored"><i>"Słoneczniki"</i> vel Mochitejki</p>
+    <img class="" width="250" height="300" src="https://i.postimg.cc/Gp8FFGK9/mochitejko.jpg" alt="Mochitejko">
+</section>
+<section class="section">
+        <h2 class="section__header" id="galeria">Galeria</h2>
+    <table class="table">
+    <tr class="table__row">
+        <th class="table__cell--header" scope="col">Rok 2022</th>
+        <th class="table__cell--header" scope="col">Portret</th>
+        <th class="table__cell--header" scope="col">Animals</th>
+        <th class="table__cell--header" scope="col">Krajobraz</th>
+    </tr>
+    <tr class="table__row">
+        <th scope="row">I kwartał</th>
+        <td><img width="160" height="200" src="https://i.postimg.cc/Y9FQt5b2/portret1.jpg"  alt="Portret 1"></td>
+        <td><img width="250" height="200" src="https://i.postimg.cc/0QJj8THz/zwierze1.jpg" style="max-width:100%" alt="Zwierzę 1"></td>
+        <td><img width="250" height="200" src="https://i.postimg.cc/SKJrgwSS/krajobraz1.jpg" alt="Krajobraz 1"></td>
+    </tr>
+    <tr class="table__row">
+        <th scope="row">II kwartał</th>
+        <td><img width="160" height="200" src="https://i.postimg.cc/0ytYndzv/portret2.jpg" alt="Portret 2"></td>
+        <td><img width="250" height="200" src="https://i.postimg.cc/fWXHnnxk/20210222-170521.jpg" alt="Zwierzę 2"></td>
+        <td><img width="250" height="200" src="https://i.postimg.cc/nhVTDXNQ/krajobraz2.jpg" alt="Krajobraz 2"></td>
+    </tr>
+    <tr class="table__row">
+        <th scope="row">III kwartał</th>
+        <td><img width="160" height="200" src="https://i.postimg.cc/pLVQK1Xk/portret3.jpg" alt="Portret 3"></td>
+        <td><img width="250" height="200" src="https://i.postimg.cc/9frGnR97/zwierze3.jpg" alt="Zwierzę 3"></td>
+        <td><img width="250" height="200" src="https://i.postimg.cc/q7SGSjq8/krajobraz3.jpg" alt="krajobraz3"></td>
+        
+    </tr>
+    <tr class="table__row">
+        <th>IV kwartał</th>
+        <td class="table__img">created</td>
+        <td class="table__img"><img width="250" height="200" src="https://i.postimg.cc/j2zvzPsy/zwierze4.jpg" alt="Zwierzę 4"></td>
+        <td class="table__img"><img width="250" height="200" src="https://i.postimg.cc/Bvkx9S5w/krajobraz4.jpg" alt="Krajobraz 4"></td>
+        
+    </tr>
+</table>
+</section>
+</main>
+    <footer class="footer">
+    Copyright © 2023 - Artur Mochnia - Wszystkie prawa zastrzeżone
+</footer>
+
+
+</body>
+
+</html>

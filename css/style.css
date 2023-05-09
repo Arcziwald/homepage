@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    margin: 10px auto;
+}
+
+.footer {
+    padding: 15px;
+}
+
+.darkBackground {
+    background-color: #cac2c2;
+}
+

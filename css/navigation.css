@@ -1,0 +1,33 @@
+.navigation {
+    background-color: hsl(36, 17%, 89%);
+    text-align: center;
+    margin: 15px auto;
+    border-radius: 20px;
+    box-shadow: #77744d 0px 0px 10px;
+    padding: 8px;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0px;
+    font-weight: 700;
+}
+
+.navigation__item {
+    display: inline;
+    padding-inline: 50px;
+    writing-mode: horizontal-tb;
+}
+
+.navigation__item--text {
+    font-size: 20px;
+    padding: 10px;
+    caption-side: top;
+    text-align: center;
+    text-shadow: 0 0 0.2em rgba(162, 166, 221, 0.856), 0 0 0.2em rgb(179, 174, 216),
+    0 0 0.2em rgba(49, 40, 102, 0.432);
+}
+
+.navigation__item--text:hover {
+        color:rgb(42, 52, 199)
+}
