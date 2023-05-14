@@ -6,4 +6,5 @@
 
 https://arcziwald.github.io/homepage/
 
-## Opis
+## Description
+My first website created while learning the profession of Frontender in the prestigious YouCode company
