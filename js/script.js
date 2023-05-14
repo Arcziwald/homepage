@@ -1,22 +1,30 @@
-console.log("Cześć Wszystkim!");
+{
+  const welcome = () => {
+  console.log("Witam wszystkich")
+}
 
-let buttonElement = document.querySelector(".header__buttonDeleteJob");
-let headerElement = document.querySelector(".header__headingjob");
+const onbuttonClick = () => {
+  const body = document.querySelector("body");
+  const changebBackgroundButton = document.querySelector(".changebBackgroundButton")
 
-buttonElement.addEventListener("click", () => {
-  headerElement.remove();
-  buttonElement.remove();
-});
-
-let changebBackgroundButton = document.querySelector(
-  ".changebBackgroundButton"
-);
-let body = document.querySelector("body");
-let button = document.querySelector("button");
-button.addEventListener("click", () => {
   body.classList.toggle("darkBackground");
-
   changebBackgroundButton.innerText = body.classList.contains("darkBackground")
     ? "jasny"
     : "ciemny";
-});
+}
+
+const init = () => {
+  const buttonElement = document.querySelector(".header__buttonDeleteJob");
+  const headerElement = document.querySelector(".header__headingjob");
+  const button = document.querySelector("button");
+
+  buttonElement.addEventListener("click", onbuttonClick);
+  button.addEventListener("click", onbuttonClick);
+  headerElement.remove();
+  buttonElement.remove();
+}
+
+welcome();
+
+init();
+};
