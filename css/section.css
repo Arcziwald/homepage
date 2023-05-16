@@ -1,12 +1,12 @@
 .section {
   background-color: hsl(36, 17%, 89%);
   text-align: center;
-  margin: 15px auto;
+  margin: 15px 5px;
   border-radius: 20px;
   box-shadow: #77744d 0px 0px 10px;
   padding: 8px;
   overflow: auto;
-  width: 100%;
+  width: auto;
 }
 
 .section__header {
